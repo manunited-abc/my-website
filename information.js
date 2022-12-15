@@ -3,7 +3,7 @@ const myInfo = {
   lastName: "Nguyen Khai",
   firstName: "Hieu",
   dateOfBirth: "2002-11-30",
-  occupation: "Java Developer,Designer,Artist",
+  occupation: "Java Developer, Young Boy, Human ",
   phoneNumber: "0343385XXX",
   email: "khaihieupc2@gmail.com",
   presentAddress: "Thu Duc City, Ho Chi Minh City, Vietnam",
