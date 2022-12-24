@@ -10,6 +10,7 @@ const myInfo = {
   facebookLink: "facebook.com/hieu.khai.503",
   githubLink: "github.com/manunited-abc",
   linkedInLink: "linkedin.com/in/hieu-khai-b8351a220",
+  mycv:"tinyurl.com/37skr6nr",
   education: [
     {
       schools: "Nong Lam University",
@@ -45,7 +46,7 @@ const myInfo = {
 document.querySelector(".profile h1 a").innerHTML = myInfo.fullName;
 document.querySelector("#hero h1").innerHTML = myInfo.fullName;
 //Set link
-document
+document.querySelector(".profile .facebook").setAttribute("href","https://www."+ myInfo.mycv);
   document.querySelector(".profile .facebook").setAttribute("href","https://www."+ myInfo.facebookLink);
   document.querySelector(".profile .linkedin").setAttribute("href","https://www."+ myInfo.linkedInLink);
   document.querySelector(".profile .github").setAttribute("href","https://www."+  myInfo.githubLink);
@@ -66,7 +67,7 @@ info[0].innerHTML = date.toLocaleString("en-GB", {
 info[1].innerHTML = myInfo.phoneNumber;
 info[2].innerHTML = myInfo.email;
 info[3].innerHTML = myInfo.presentAddress;
-info[4].innerHTML = `<a href = "https://www.${myInfo.facebookLink}" target="_blank">${myInfo.facebookLink}</a>`;
+info[4].innerHTML = `<a href = "https://www.${myInfo.mycv}" target="_blank">${myInfo.mycv}</a>`;
 info[5].innerHTML = `<a href = "https://www.${myInfo.githubLink}" target="_blank">${myInfo.githubLink}</a>`;
 info[6].innerHTML = `<a href = "https://www.${myInfo.linkedInLink}" target="_blank">${myInfo.linkedInLink}</a>`;
 //Set skills
