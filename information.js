@@ -35,9 +35,7 @@ const myInfo = {
     orthers: ["OOP", "Git", "Github"],
   },
   summary:
-    "My name is Hieu. Currently ,I'm IT student. I'd have good knowledge of Java, and OOP, I'd have " +
-    +"experience with Java frameworks such as SpringBoot, JPA/Hibernate, and build some websites by " +
-    " ReactJS, and Restful API. I also spend time learning new technologies and best practices to become a better engineer",
+    "My name is Hieu. Currently ,I'm IT student. I'd have good knowledge of Java, and OOP, I'd have experience with Java frameworks such as SpringBoot, JPA/Hibernate, and build some websites by ReactJS, and Restful API. I also spend time learning new technologies and best practices to become a better engineer",
   avatar: "",
 };
 // Fill infor
