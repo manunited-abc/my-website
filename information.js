@@ -2,7 +2,7 @@ const myInfo = {
   fullName: "Nguyen Khai Hieu",
   lastName: "Nguyen Khai",
   firstName: "Hieu",
-  dateOfBirth: "2002-11-30",
+  dateOfBirth: "2001-11-30",
   occupation: "Java Developer, Young Boy, Human ",
   phoneNumber: "0343385XXX",
   email: "khaihieupc2@gmail.com",
