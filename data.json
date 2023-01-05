@@ -1,0 +1,40 @@
+{
+    "fullName": "Nguyen Khai Hieu",
+    "lastName": "Nguyen Khai",
+    "firstName": "Hieu",
+    "dateOfBirth": "2001-11-30",
+    "occupation": "Java Developer, Young Boy, Human ",
+    "phoneNumber": "0343385XXX",
+    "email": "khaihieupc2@gmail.com",
+    "presentAddress": "Thu Duc City, Ho Chi Minh City, Vietnam",
+    "facebookLink": "facebook.com/hieu.khai.503",
+    "githubLink": "github.com/manunited-abc",
+    "linkedInLink": "linkedin.com/in/hieu-khai-b8351a220",
+    "mycv":"tinyurl.com/37skr6nr",
+    "educatio": [
+      {
+        "schools": "Nong Lam University",
+        "industry": "Information Technology",
+        "startYear": "2019",
+        "endYear": "Present",
+        "note": "I have been studying at this school for 4 years, and I am proud of it."
+      }
+      
+    ],
+    "skills": {
+      "programLanguges": ["Java", "JavaScript", "HTML", "CSS", "C#", "Python"],
+      "framework": [
+        "SpringMVC/Spring Boot",
+        "JSP/Servlet",
+        "ReactJS",
+        "Boostrap",
+        "JQuery"
+      ],
+      "database": ["MySQL", "SQL Server"],
+      "foreignLanguages": ["Reading comprehension English documents"],
+      "orthers": ["OOP", "Git", "Github"]
+    },
+    "summary":
+      "My name is Hieu. Currently ,I'm IT student. I'd have good knowledge of Java, and OOP, I'd have experience with Java frameworks such as SpringBoot, JPA/Hibernate, and build some websites by ReactJS, and Restful API. I also spend time learning new technologies and best practices to become a better engineer",
+    "avatar": ""
+  }
