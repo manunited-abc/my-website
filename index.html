@@ -43,6 +43,46 @@
       background: url("assets/img/bg4.jpg") top center;
       background-size: cover;
     }
+    .skills .progress-bar-wrap,.skills .progress-bar{
+        height: 5px;
+    }
+    .skills .progress{
+      display: flex;
+    }
+    .skills .progress-bar-wrap{
+      width: 100%;
+      align-self: center;
+      flex-grow: 0;
+    
+    }
+    .skills .progress  .skill{
+        font-size: 18px;
+        padding: 7px;
+        align-self: center;
+        flex-grow: 1;
+        text-transform: none;
+    }
+    .mx-4{
+      font-size: 18px;
+        
+        font-weight: 600;
+    }
+    .skills .progress .logo{
+      padding:7px 0 7px 7px;
+      width: 15%;
+
+    }
+    .skills .progress .logo img{
+      float: right;
+      flex-grow: 1;
+    }
+    .skills-content h4{
+      display: inline;
+      background: #149ddd;
+    color: #fff;
+    padding: 2px;
+}
+    
   </style>
   <!-- =======================================================
   * Template Name: iPortfolio - v3.9.1
@@ -76,9 +116,9 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bxs-hand"></i> <span>Skills</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bxs-school"></i> <span>Education</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-bookmarks"></i> <span>Testimonials</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -89,7 +129,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Alex Smith</h1>
-      <p>I'm <span class="typed" data-typed-items="Java Developer, Young Boy, Human"></span></p>
+      <p>I'm <span class="typed" data-typed-items="Java Developer, Software Engineer, Fresher"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -138,7 +178,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
+    <!-- <section id="facts" class="facts">
       <div class="container">
 
         <div class="section-title">
@@ -183,7 +223,8 @@
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+</section> -->
+   <!-- End Facts Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -195,7 +236,7 @@
         </div>
 
         <div class="row skills-content">
-          <h4>Program Languages</h4>
+          <div><h4>Program Languages</h4></div>
           <div class="col-lg-6" data-aos="fade-up">
            
           </div>
@@ -203,7 +244,7 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
           </div>
-          <h4>Framework/Platforms</h4>
+          <div><h4>Framework/Platforms</h4></div>
           <div class="col-lg-6" data-aos="fade-up">
            
           </div>
@@ -211,15 +252,15 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
           </div>
-          <h4>Databases</h4>
+          <div><h4>Databases</h4></div>
           <div class="col-lg-6" data-aos="fade-up">
            
           </div> 
-          <h4>Foreign Languages</h4>
+          <div><h4>Foreign Languages</h4></div>
           <div class="col-lg-6" data-aos="fade-up">
            
           </div> 
-          <h4>Others</h4>
+          <div><h4>Others</h4></div>
           <div class="col-lg-6" data-aos="fade-up">
            
           </div>         
@@ -374,88 +415,7 @@
     <!-- ======= Services Section ======= -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Updating</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  You only live once, but if you do it right, once is enough
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Don’t cry because it’s over, smile because it happened
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Insanity is doing the same thing, over and over again, but expecting different results
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  It does not do to dwell on dreams and forget to live
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Good friends, good books, and a sleepy conscience
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
+    
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -494,7 +454,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div  class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -518,15 +478,17 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+              <div class="text-center"><button class="btn btn-primary" type="button"  
+                onclick="alert('Please contact with me by Facebook or Email above <3')">Send Message</button></div>
+            </div>
           </div>
-
+          
         </div>
-
       </div>
     </section><!-- End Contact Section -->
+     <!-- Modal -->
 
+ 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -546,6 +508,7 @@
   </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+ 
    <!-- My JS File -->
    <script src="main.js"></script>
   <!-- Vendor JS Files -->
@@ -558,7 +521,7 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  <script src="assets/js/alert.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
    <!-- Call json -->

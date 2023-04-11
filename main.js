@@ -1,4 +1,4 @@
-fetch("data.json")
+fetch("data/data.json")
   .then((response) => response.json())
   .then((myInfo) => renderGUI(myInfo));
 function renderGUI(myInfo) {
@@ -10,7 +10,7 @@ function renderGUI(myInfo) {
   document.querySelector("#hero h1").innerHTML = myInfo.fullName;
   //Set link
   document
-    .querySelector(".profile .facebook")
+    .querySelector(".profile .mycv")
     .setAttribute("href", "https://www." + myInfo.mycv);
   document
     .querySelector(".profile .facebook")
@@ -78,28 +78,27 @@ function renderSkills(arrays, e1, e2) {
   let html1 = [];
   for (let i = 0; i < numRow1; i++) {
     html1[i] = `<div class="progress mx-4">
-                          <span class="skill">${pl[i]}<i class="val">${
-      100 - i * 10 - 10
-    }%</i></span>
+                          <span class="skill">${pl[i][0]}</span>
                           <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="${
-                                100 - i * 10 - 10
-                              }" aria-valuemin="0" aria-valuemax="100"></div>
+                              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                            </div>
+                           <div class="logo">
+                           <img src="img/logo pl/${pl[i][1]}" width="60" />
+                           </div>
+                           
                       </div>`;
   }
   proLanElements[e1].innerHTML = html1.join("");
   let html2 = [];
   for (let i = numRow1; i < pl.length; i++) {
     html2[i - numRow1] = `<div class="progress mx-4">
-                          <span class="skill">${pl[i]}<i class="val">${
-      100 - i * 10 - 10
-    }%</i></span>
-                          <div class="progress-bar-wrap">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="${
-                                100 - i * 10 - 10
-                              }" aria-valuemin="0" aria-valuemax="100"></div>
-                           </div>
+    <span class="skill">${pl[i][0]}</span>
+    <div class="progress-bar-wrap">
+        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+     </div>
+     <div class="logo">
+     <img src="img/logo pl/${pl[i][1]}" width="60" />
+     </div>
                       </div>`;
   }
   proLanElements[e2].innerHTML = html2.join("");

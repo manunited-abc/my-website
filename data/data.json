@@ -3,7 +3,7 @@
     "lastName": "Nguyen Khai",
     "firstName": "Hieu",
     "dateOfBirth": "2001-11-30",
-    "occupation": "Java Developer, Young Boy, Human ",
+    "occupation": "Java Developer, Software Engineer, Fresher",
     "phoneNumber": "0343385XXX",
     "email": "khaihieupc2@gmail.com",
     "presentAddress": "Thu Duc City, Ho Chi Minh City, Vietnam",
@@ -17,24 +17,28 @@
         "industry": "Information Technology",
         "startYear": "2019",
         "endYear": "Present",
-        "note": "I have been studying at this school for 4 years, and I am proud of it."
+        "note": "Good."
       }
       
     ],
     "skills": {
-      "programLanguges": ["Java", "JavaScript", "HTML", "CSS", "C#", "Python"],
+      "programLanguges":
+        [["Java","java.png"],
+        ["JavaScript","java_script.png"],
+        ["C#","c_sharp.png"],
+        ["Python","python.png"]],
       "framework": [
-        "SpringMVC/Spring Boot",
-        "JSP/Servlet",
-        "ReactJS",
-        "Boostrap",
-        "JQuery"
+        ["SpringMVC/SpringBoot","spring-framework.png"],
+        ["JSP/Servlet/JSF/Thymeleaf","jsp.png"],
+        ["ReactJS","reactjs.png"],
+        ["Boostrap","boostrap.png"],
+        ["JQuery","jquery.png"]
       ],
-      "database": ["MySQL", "SQL Server"],
+      "database": ["MySQL", "SQL Server","MongoDB"],
       "foreignLanguages": ["Reading comprehension English documents"],
-      "orthers": ["OOP", "Git", "Github"]
+      "orthers": ["OOP", "Git", "Github/Gitlab"]
     },
     "summary":
-      "My name is Hieu. Currently ,I'm IT student. I'd have good knowledge of Java, and OOP, I'd have experience with Java frameworks such as SpringBoot, JPA/Hibernate, and build some websites by ReactJS, and Restful API. I also spend time learning new technologies and best practices to become a better engineer",
+      "I am an undergraduate software engineering student at Nong Lam University (NLU). I'd have good knowledge of Java, JavaScript, C#, ... . After I graduate, I dream of working for one of the top big tech companies. I am eager and ready to strengthen my knowledge of Web Development(especially Bac-end) and apply this to solve real-world problems. ",
     "avatar": "https://media.discordapp.net/attachments/1055108546741678093/1057251577183875102/kahoot_adulthood_1c1603f1-3a30-45cd-95b9-801552510eb2.png?width=670&height=670" 
   }
