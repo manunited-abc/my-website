@@ -17,7 +17,7 @@
         "industry": "Information Technology",
         "startYear": "2019",
         "endYear": "Present",
-        "note": "Good."
+        "note": "...."
       }
       
     ],
@@ -36,9 +36,9 @@
       ],
       "database": ["MySQL", "SQL Server","MongoDB"],
       "foreignLanguages": ["Reading comprehension English documents"],
-      "orthers": ["OOP", "Git", "Github/Gitlab"]
+      "orthers": ["OOP", "Git", "Github/Gitlab","Jenkins","Docker"]
     },
     "summary":
-      "I am an undergraduate software engineering student at Nong Lam University (NLU). I'd have good knowledge of Java, JavaScript, C#, ... . After I graduate, I dream of working for one of the top big tech companies. I am eager and ready to strengthen my knowledge of Web Development(especially Bac-end) and apply this to solve real-world problems. ",
+      "I am an undergraduate software engineering student at Nong Lam University (NLU). I'd have good knowledge of Java, JavaScript, C#, ... . After I graduate, I dream of working for one of the top big tech companies. I am eager and ready to strengthen my knowledge of Web Development(especially Back-end) and apply this to solve real-world problems. ",
     "avatar": "https://media.discordapp.net/attachments/1055108546741678093/1057251577183875102/kahoot_adulthood_1c1603f1-3a30-45cd-95b9-801552510eb2.png?width=670&height=670" 
   }
